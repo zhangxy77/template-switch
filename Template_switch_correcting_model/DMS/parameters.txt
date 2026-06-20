@@ -1,0 +1,10 @@
+Y_obs_rep1.txt
+Y_obs_rep2.txt
+S_matrix.txt
+freq_obs_rep1.txt
+freq_obs_rep2.txt
+output_results.txt
+18
+526102.000000
+633155.000000
+928
