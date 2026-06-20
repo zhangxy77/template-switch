@@ -1,0 +1,39 @@
+For 16S rRNA and HLA-C data, the .RData file stores the model input parameters:
+
+Y_obs: chimera matrix
+
+S_matrix: similarity matrix
+
+effective_cycle: effective number of cycles
+
+D: sequencing depth
+
+K: number of species
+
+freq_initial: initial frequency
+
+N: initial number of molecules
+
+
+
+For DMS (Deep Mutational Scanning) data, the model inputs are provided as separate text files (parameters.txt), consisting of:
+
+Y_obs_rep1.txt — Observed chimera matrix for replicate 1
+
+Y_obs_rep2.txt — Observed chimera matrix for replicate 2
+
+S_matrix.txt — Similarity matrix
+
+freq_obs_rep1.txt — Observed frequency data for replicate 1
+
+freq_obs_rep2.txt — Observed frequency data for replicate 2
+
+output_results.txt — Output results file
+
+effective_cycle — Effective number of amplification cycles
+
+D_rep1 — Sequencing depth for replicate 1
+
+D_rep2 — Sequencing depth for replicate 2
+
+K — Number of species (variants)
